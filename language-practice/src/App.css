@@ -19,41 +19,20 @@ body{
   padding: 0%;
 }
 
-.TextSideL {
-  min-width: 45%;
-  padding-left: 0%;
-  padding-right: 0%;
-  float: left;
+.horizontal{
+  display: inline-block;
+  margin: 0%;
+  padding: 0%;
+  width: 45%;
 }
 
-
-.TextSideR {
-  min-width: 45%;
-  padding-left: 0%;
-  padding-right: 0%;
-  float: right;
+.spacer5{
+  display: inline-block;
+  margin: 0%;
+  padding: 0%;
+  width: 5%;
 }
 
-ul{
-  display: flex;
-  width:90%;
-  padding-top: 3%;
-  padding-left: 5%;
-  padding-right: 5%;
+.vertical{
   list-style: none;
-}
-
-.spacer50{
-  width:50%;
-}
-
-ul.horizontal1 li {
-  width:100%;
-  display: inline-block;
-}
-
-
-ul.horizontal li {
-  width:100%;
-  display: inline-block;
 }
